@@ -1,0 +1,35 @@
+div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+#name {
+    background-color: darkolivegreen;
+}
+
+#red {
+    background-color:red;
+}
+
+#blue {
+    background-color:blue;
+}
+
+#green {
+    background-color:green;
+}
+
+#black {
+    background-color:black;
+}
+
+#cyan {
+    background-color:cyan;
+}
+
+#magenta {
+    background-color:magenta;
+}
+
+
