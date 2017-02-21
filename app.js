@@ -10,9 +10,9 @@ $(document).ready(function(){
         }); 
     }); */
 
-    $("#black").click(function(){
+  /*  $("#black").click(function(){
         $(this).hide('slow');
-});
+}); */
 
     $('#blue').click(function(){
         $(this).fadeOut(2000);
@@ -22,14 +22,26 @@ $(document).ready(function(){
 
     $('#green').mouseenter(function(){
         $(this).fadeTo('fast',1); // Must use opacity in css file for this function to work.
-    })
+    });
 
  $('#green').mouseleave(function(){
         $(this).fadeTo('fast',0.5); // Must use opacity in css file for this function to work.
-    })
+    });
 
     $("#btn").click(function(){
         $('#black').toggle();
-    })
+    });
+
+    var $child = $('div:nth-child(2)');
+    $child.fadeOut('slow');
+
+
+
+
+
+
+
+
+
 
 });
